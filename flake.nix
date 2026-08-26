@@ -23,16 +23,16 @@
         {
           packages.default = pkgs.rustPlatform.buildRustPackage rec {
             pname = "keyroost";
-            version = "0.7.8";
+            version = "0.8.0";
 
             src = pkgs.fetchFromGitHub {
               owner = "framefilter";
               repo = "keyroost";
               rev = "refs/tags/v${version}";
-              hash = "sha256-oaEzTq7/ETRVXBv9lsoqXvSBdXuGPzdcJW/nrJ7w/7I=";
+              hash = "sha256-zimFbocOrc0qLRqSK6U/vVMJxHEiuXepEDPzjXPFR3U=";
             };
 
-            cargoHash = "sha256-Rv2wxvFtH6QWOL8aTKlJHvQdkSg0yxK4zfaEvySvv6Y=";
+            cargoHash = "sha256-J+8AS45wqfnrJKng0gvNbK7QVG0874ce/VdUiMCA7MM=";
 
             cargoBuildFlags = [
               "-p"
