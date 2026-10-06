@@ -1,5 +1,11 @@
 # keyroost-nix
 
+> [!WARNING]
+> **Repository Archived**
+>
+> Upstream repo `keyroost` now natively supports Nix with its own flake, making `keyroost-nix` redundant. Please use official repo instead.
+
+
 This repository provides Nix packaging for [keyroost](https://github.com/framefilter/keyroost), a Rust-based Management UI and CLI for U2F/FIDO2 and other hardware security keys.
 
 ## Usage
